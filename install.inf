@@ -1,0 +1,10 @@
+[info]
+title=Lorem Ipsum
+desc=Inserts "Lorem Ipsum" text (placeholder for HTML pages)
+type=cudatext-plugin
+subdir=cuda_lorem
+
+[item1]
+section=commands
+caption=Lorem Ipsum
+method=run
