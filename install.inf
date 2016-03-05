@@ -3,6 +3,7 @@ title=Lorem Ipsum
 desc=Inserts "Lorem Ipsum" text (placeholder for HTML pages)
 type=cudatext-plugin
 subdir=cuda_lorem
+homepage=https://github.com/CudaText-addons/cuda_lorem_ipsum
 
 [item1]
 section=commands
