@@ -12,9 +12,9 @@ class Command:
         is_para = s_type in ['p', 't']
         
         text = gettext(n_count, is_para, is_tags)
-        
-        x0, y0, x1, y1 = ed.get_carets()[0] 
-        ed.insert(x0, y0, text)
+        carets = ed.get_carets()
+        for (x0, y0, x1, y1) in reversed(carets): 
+            ed.insert(x0, y0, text)
         
         msg = 'Inserted %d paragraphs' if is_para else 'Inserted %d sentences'
         msg_status(msg % n_count)
