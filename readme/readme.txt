@@ -4,5 +4,5 @@ Can insert N sentences (dot-separated), or N paragraphs (blank line separated) o
 N is the option in the dialog.
 Multi-carets are supported, text will be inserted at multi-carets.
 
-Author: Alexey (CudaText)
+Author: Alexey Torgashin (CudaText)
 License: MIT
